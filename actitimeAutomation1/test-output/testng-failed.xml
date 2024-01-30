@@ -5,8 +5,10 @@
     <classes>
       <class name="com.actitime.testscript.CreateModule">
         <methods>
-          <include name="closeBrowser"/>
           <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="testCreateTask"/>
+          <include name="testCreateProject"/>
           <include name="login"/>
           <include name="testCreateCustomer"/>
           <include name="openBrowser"/>
